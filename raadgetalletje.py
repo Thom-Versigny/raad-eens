@@ -28,6 +28,7 @@ while  True:
         if tries == 10:
             print("you tried but it's was:",randomnumber)
             Played = 19
+            break
         tries += 1
     print("your score: "+ str(score))
     Played+=1
