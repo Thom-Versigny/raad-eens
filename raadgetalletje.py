@@ -27,6 +27,7 @@ while  True:
             print("you want to go higher")
         if tries == 10:
             print("you tried but it's was:",randomnumber)
+            Played = 19
         tries += 1
     print("your score: "+ str(score))
     Played+=1
